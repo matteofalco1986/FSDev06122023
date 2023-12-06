@@ -1,15 +1,54 @@
 body {
-    padding: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+header {
     text-align: center;
     font-weight: 700;
     font-size: 8rem;
     color: #EF8181;
+    position: sticky;
+    top: 70px;
+    z-index: 1;
+    background-color: white;
+}
+
+main {
+    padding: 20px 80px;
+}
+
+h1 {
+    font-size: 8rem;
 }
 
 .selected {
     border: 2px solid #DC3546;
+}
+
+.genre {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.col-4 {
+    margin-bottom: 15px;
+}
+
+svg {
+   width: 90px;
+   height: auto;
+   border: 2px solid rgba(231, 231, 231, 0.427);
+   border-radius: 10px;
+   padding: 20px;
+   position: fixed;
+   left: 90px;
+   top: 113px;
+   z-index: 1;
+}
+.removed {
+    display: none;
 }
