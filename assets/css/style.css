@@ -1,0 +1,15 @@
+body {
+    padding: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 8rem;
+    color: #EF8181;
+}
+
+.selected {
+    border: 2px solid #DC3546;
+}
