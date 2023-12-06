@@ -8,13 +8,13 @@ header {
     font-size: 8rem;
     color: #EF8181;
     position: sticky;
-    top: 70px;
+    top: 0px;
     z-index: 1;
     background-color: white;
 }
 
 main {
-    padding: 20px 80px;
+    padding: 30px 80px;
 }
 
 h1 {
@@ -46,9 +46,13 @@ svg {
    padding: 20px;
    position: fixed;
    left: 90px;
-   top: 113px;
+   top: 40px;
    z-index: 1;
 }
 .removed {
     display: none;
+}
+
+img {
+    height: 420px;
 }

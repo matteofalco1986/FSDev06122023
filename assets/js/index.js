@@ -63,8 +63,8 @@ function populateHTML(singleBook) {
     [0].addEventListener('click', function () {
         this.closest('.card').classList.add('selected');
         cart.push(singleBook);
+        localStorage.clear();
         localStorage.setItem('cart', cart);
-        console.log(cart)
     })
 
     // Deselects object and clears border
